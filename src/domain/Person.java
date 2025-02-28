@@ -2,7 +2,7 @@ package domain;
 
 import java.time.LocalDate;
 
-public class Person {
+public abstract class Person {
     private String name;
     private LocalDate birthDate;
 
@@ -26,4 +26,6 @@ public class Person {
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
+
+
 }
